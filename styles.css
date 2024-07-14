@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Raspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+
+}
+.texts h1{
+    font-family: "Young Serif";
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 2vh;
+}
+.texts p{
+    margin-bottom: 2vh;
+}
+.middle{
+    background-color: rgb(247, 204, 251);
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2vh;
+}
+.middle h3{
+    color:var(--Raspberry);
+    margin-bottom: 1rem;
+}
+.middle .bold{
+    
+    font-family: outfit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.3;
+}
+.head2{
+    color:var(--Nutmeg)
+}
+.unOrd2{
+    color: var(--WengeBrown);
+    font-family: outfit;
+    font-size: 16px;
+    line-height: 2;
+    margin-left: 1rem;
+    margin-bottom:1rem ;
+}
+hr{
+    margin-bottom: 1rem;
+}
+.ordList{
+    color: var(--WengeBrown);
+    font-family: outfit;
+    font-size: 16px;
+    line-height: 2;
+    margin-left: 1rem;
+    margin-bottom:1rem ; 
+}
+.ordList .bold{
+    font-family: outfit;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 2.3;
+    margin-right: 0.5rem;
+}
+p{
+    color: var(--WengeBrown);
+    font-family: outfit;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.calories{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-between; */
+    /* align-items:center; */
+    /* text-align: center; */
+
+}
+.calories p{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:space-evenly;
+    align-items:center;
+    font-weight: 600;
+    /* text-align: le; */
+
+}
+.calories .colorP{
+    color: var(--Nutmeg);
+    /* text-align: center; */
+}
+@media screen and (max-width:600px){
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .texts{
+        width: 85%;
+        margin:auto;
+    }
+    .texts h1{
+        font-family: "Young Serif";
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.2;
+        margin-bottom: 2vh;
+    }
+    .texts p{
+        margin-bottom: 2vh;
+    }
+    .middle{
+        background-color: rgb(247, 204, 251);
+        padding: 2rem;
+        border-radius: 8px;
+        margin-bottom: 2vh;
+    }
+    .middle h3{
+        color:var(--Raspberry);
+        margin-bottom: 1rem;
+    }
+    .middle .bold{
+        
+        font-family: outfit;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 2.3;
+    }
+    .head2{
+        color:var(--Nutmeg)
+    }
+    .unOrd2{
+        color: var(--WengeBrown);
+        font-family: outfit;
+        font-size: 16px;
+        line-height: 2;
+        margin-left: 1rem;
+        margin-bottom:1rem ;
+    }
+    hr{
+        margin-bottom: 1rem;
+    }
+    .ordList{
+        color: var(--WengeBrown);
+        font-family: outfit;
+        font-size: 16px;
+        line-height: 2;
+        margin-left: 1rem;
+        margin-bottom:1rem ; 
+    }
+    .ordList .bold{
+        font-family: outfit;
+        font-size: 17px;
+        font-weight: 800;
+        line-height: 2.3;
+        margin-right: 0.5rem;
+    }
+    p{
+        color: var(--WengeBrown);
+        font-family: outfit;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+    .calories{
+        display: flex;
+        flex-direction: column;
+        /* justify-content:space-between; */
+        /* align-items:center; */
+        /* text-align: center; */
+    
+    }
+    .calories p{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content:space-evenly;
+        align-items:center;
+        font-weight: 600;
+        /* text-align: le; */
+    
+    }
+    .calories .colorP{
+        color: var(--Nutmeg);
+        /* text-align: center; */
+    }
+    
+}
+
+@media screen and (min-width:1100px){
+    body{
+        background-color: var(--Eggshell);
+        padding: 5rem;
+    }
+    .container{
+        max-width: 42vw;
+        margin: auto;
+        background-color: white;
+        padding: 3rem;
+        border-radius: 8px;
+        /* height: 100vh; */
+    }
+    img{
+        width:100%;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+    }
+    .texts{
+        width: 85%;
+        margin:auto;
+    }
+    .texts h1{
+        font-family: "Young Serif";
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.2;
+        margin-bottom: 2vh;
+    }
+    .texts p{
+        margin-bottom: 2vh;
+    }
+    .middle{
+        background-color: rgb(247, 204, 251);
+        padding: 2rem;
+        border-radius: 8px;
+        margin-bottom: 2vh;
+    }
+    .middle h3{
+        color:var(--Raspberry);
+        margin-bottom: 1rem;
+    }
+    .middle .bold{
+        
+        font-family: outfit;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 2.3;
+    }
+    .head2{
+        color:var(--Nutmeg)
+    }
+    .unOrd2{
+        color: var(--WengeBrown);
+        font-family: outfit;
+        font-size: 16px;
+        line-height: 2;
+        margin-left: 1rem;
+        margin-bottom:1rem ;
+    }
+    hr{
+        margin-bottom: 1rem;
+    }
+    .ordList{
+        color: var(--WengeBrown);
+        font-family: outfit;
+        font-size: 16px;
+        line-height: 2;
+        margin-left: 1rem;
+        margin-bottom:1rem ; 
+    }
+    .ordList .bold{
+        font-family: outfit;
+        font-size: 17px;
+        font-weight: 800;
+        line-height: 2.3;
+        margin-right: 0.5rem;
+    }
+    p{
+        color: var(--WengeBrown);
+        font-family: outfit;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+    .calories{
+        display: flex;
+        flex-direction: column;
+        /* justify-content:space-between; */
+        /* align-items:center; */
+        /* text-align: center; */
+    
+    }
+    .calories p{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content:space-evenly;
+        align-items:center;
+        font-weight: 600;
+        /* text-align: le; */
+    
+    }
+    .calories .colorP{
+        color: var(--Nutmeg);
+        /* text-align: center; */
+    }
+}
